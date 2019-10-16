@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid blue;
+  padding: 20px;
+  margin-top: 60px;
+}
+h2 {
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+}
+
+.birds {
+  color: blue;
+  font-style: italic;
+}
+
+.fish{
+  color: orange;
+  text-decoration: underline;
+}
+
+#first-list{
+  background-color: lime;
+}
+
+#first-list li {
+  display: inline-block;
+  margin: 30px;
+  width: 12%;
+}
+
+img{
+  display: block;
+  margin: 20px auto;
+  width: 300px
+}
